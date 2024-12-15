@@ -174,7 +174,7 @@ local function buildPart(part)
 end
 
 -- Load the model
-assetId = nil -- Replace with the rbxassetid of the model
+-- assetId = nil -- Replace with the rbxassetid of the model
 local model = game:GetObjects("rbxassetid://" .. assetId)[1]
 if not model then
     warn("Failed to load model from asset ID.")
