@@ -2,7 +2,7 @@
 --  CONFIGURATION  (edit these values before running)
 -- ============================================================
 local ASSET_ID          = 0          -- Replace with your rbxassetid number
-local API_CALL_DELAY    = 0.05       -- Seconds between SyncAPI calls (tune to avoid kick)
+local API_CALL_DELAY    = 0.01       -- Seconds between SyncAPI calls (tune to avoid kick)
 local DRY_RUN           = false      -- If true, counts parts and prints a preview without building
 local PLACEMENT_OFFSET  = CFrame.new(0, 0, 0)  -- World-space offset for the entire build
 -- ============================================================
